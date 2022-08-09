@@ -2,7 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
 }
+
 
 .header, .footer, .hero-area {
     background-color: #1f2937;
@@ -20,6 +22,7 @@ body {
    font-size: 24px;
    color: #f9faf8;
    margin-right: auto;
+   font-weight: 900;
 }
 
 ul {
@@ -38,8 +41,9 @@ a {
 
 .hero-area {
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    align-items: center;
+    justify-content: center;;
+    padding: 80px;
     gap: 100px;
 }
 
@@ -47,13 +51,15 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 
 .phero2 {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 #button1 {
@@ -69,6 +75,102 @@ img {
     height: 250px;
     
 }
+
+/* information area */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    padding: 25px;
+}
+
+.info .container {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.align-center {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.align-center .img-with-info {
+    border: 2px solid rgb(122, 120, 235);
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+#p2 {
+    color:#27292b
+}
+
+/* testimonials */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px;
+    align-items: center;
+}
+
+.p3 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
+/* Signup area */
+
+.signup {
+    display: flex;
+    padding: 80px;
+    justify-content: center;;
+   
+}
+
+.signup-container {
+    display: flex;
+    background-color: hsl(217, 91%, 59%);
+    padding: 30px 80px 30px 80px;
+    gap: 150px;
+    border-radius: 10px;
+    color: #f9faf8
+}
+
+.white-h3 {
+    margin-bottom: 0px;
+}
+
+.p4 {
+    margin-top: 10px;
+}
+#button2 {
+    color: white;
+    border: 2px solid white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
    
