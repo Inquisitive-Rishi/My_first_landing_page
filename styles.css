@@ -36,5 +36,40 @@ a {
 
 /* hero-area */
 
+.hero-area {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+}
 
+.phero1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.phero2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#button1 {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    height: 250px;
+    
+}
+
+
+   
 
